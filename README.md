@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+# Assignment for Frontend Developer Candidates
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built on [ReactJS](https://react.dev/learn/start-a-new-react-project) library using [Vite](https://vitejs.dev/guide/). It is recommended by the official documents of the REact to use some kind of framework to build out their application.
 
-Currently, two official plugins are available:
+The project contains just 2 pages, Home and Categories. This website is not made responsive as the Figma files did not have designs for responsive layouts. This only works on desktops.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Prerequisites
 
-## Expanding the ESLint configuration
+### Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Fork this repository
+2. Clone the repository
 
-- Configure the top-level `parserOptions` property like this:
+### Installing Node.js
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+You need a package manager `npm` to install libraries and run the React application. You can download it by installing [Node.js][nodejs] on your machine.
+
+### Installing the Libraries
+
+I have used a couple of Javascript libraries in this project to make my work smoother and easier. Here is a list of all the libraries used -
+
+- styled-components
+- framer-motion
+- react-router-dom
+
+All the libraries and their versions are present in the file package.json in the root folder
+
+```
+package.json
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+To automatically install all the libraries, run the following command at the root location in your terminal -
+
+```terminal
+npm install
+```
+
+## Execute
+
+To run the React application on your machine, follow these steps -
+
+1. Open Terminal/Command Prompt.
+2. Navigate to the directory where your project is stored.
+3. Run the following command
+
+```terminal
+npm run dev
+```
