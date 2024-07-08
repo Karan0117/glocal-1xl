@@ -1,4 +1,4 @@
-# Assignment for Frontend Developer Candidates
+# Assignment for Frontend Developer Candidates for 1XL
 
 This project is built on [ReactJS](https://react.dev/learn/start-a-new-react-project) library using [Vite](https://vitejs.dev/guide/). It is recommended by the official documents of the REact to use some kind of framework to build out their application.
 
